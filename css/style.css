@@ -1,0 +1,28 @@
+body{
+ margin: 0;
+ padding: 0; 
+ background-color: #dbd7d2; 	
+}
+
+header{
+	width: 100%;
+	height: 7vh;
+	background-color: #21201b;
+}
+
+.oBlock{
+	width: 95vw;
+	height: 98vh;
+	background-color: #21201b;
+	margin-left: 1.8vw;
+	margin-top: 2vh;
+}
+
+.lockBlock{
+	position: absolute;
+	margin-top: 8vh;
+	margin-left: 20vw;
+	width: 50vw;
+	height: 50vh;
+	border: 4px solid white;
+}
