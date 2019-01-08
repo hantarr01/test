@@ -1,10 +1,25 @@
-// $(Start).click(function(){
-// 	$(block).animate({
-// 		left: '5vw',
-// 		top:'6vh',
-// 		height: '50vh',
-// 		width: '30vw',
-// 		opacity: 0.9,
-// 		fontSize: "16px",
-// 	});  
-// });
+$(start).click(function(){
+	$(left).animate({
+		width: '-50vw',
+	});  
+});
+
+$(start).click(function(){
+	$(right).animate({
+		width: '-50vw',
+	});  
+});
+
+
+
+$(back).click(function(){
+	$(left).animate({
+		width: '50vh', 
+	});
+});
+
+$(back).click(function(){
+	$(right).animate({
+		width: '50vh', 
+	});
+});
